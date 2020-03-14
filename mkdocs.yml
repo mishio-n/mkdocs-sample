@@ -1,0 +1,39 @@
+site_name: "iOS"
+
+theme:
+  name: "material"
+  language: "ja"
+  feature:
+    tabs: true
+
+nav:
+  - 全体:
+      - 目次: index.md
+  - iOS:
+      - テンプレート: iOS/index.md
+      - 導入篇:
+          - 目次: iOS/introduction/index.md
+      - 課題篇:
+          - 目次: iOS/todo/index.md
+      - 発展篇:
+          - 目次: iOS/advance/index.md
+
+extra:
+  font:
+    text: "Noto Sans JP"
+    code: "Consolas"
+  search:
+    language: "ja"
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - "./css/custom.css"

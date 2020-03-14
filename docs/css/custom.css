@@ -1,0 +1,32 @@
+.md-typeset h1 {
+  font-weight: bold;
+  color: #000;
+  border-bottom: solid 2px #f18b21;
+  padding-bottom: 5px;
+}
+
+.md-typeset h2 {
+  border-bottom: 1px dotted #888;
+}
+
+.md-typeset h3 {
+  color: #3f3f3f;
+}
+
+body {
+  font-family: "Noto Sans JP";
+}
+
+.chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 32px;
+  padding: 0 14px;
+  border-radius: 16px;
+  background-color: rgba(255, 200, 250, 0.6);
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
