@@ -13,6 +13,7 @@ nav:
       - テンプレート: iOS/index.md
       - 導入篇:
           - 目次: iOS/introduction/index.md
+          - iOSについて: iOS/introduction/ios.md
       - 課題篇:
           - 目次: iOS/todo/index.md
       - 発展篇:
@@ -30,6 +31,7 @@ markdown_extensions:
       permalink: true
   - admonition
   - codehilite
+  - footnotes
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.tasklist:
